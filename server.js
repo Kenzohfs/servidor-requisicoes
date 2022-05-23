@@ -113,3 +113,6 @@ app.listen(port, () => {
 //PUT - Alterar informações // req.body
 //DELETE - Deletar informações // req.params
 //OPTIONS - informações que o servidor pode responder - não vai ser utilizado
+
+//postman -> site para testar as requisições
+//webhook.site -> site para pegar um servidor que poderá ser usado para ver se o post está funcionando
