@@ -2,11 +2,8 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+//Necessário usar isso senão o servidor não aceitará JSON's no body
 app.use(express.json());
-
-// app.use(function(req, res, next) {
-//     console.log();
-// })
 
 const listaPessoas = [
     {
